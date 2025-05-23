@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "python-projeto-estruturado"
+version = "0.1.0"
+description = "Estruturando um projeto em python"
+authors = ["emrehliug <guigui410@gmail.com>"]
+license = "Gui"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.1"
+pandas = "^2.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
