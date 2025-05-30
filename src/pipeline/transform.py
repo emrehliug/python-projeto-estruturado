@@ -1,9 +1,11 @@
 from typing import List
+
 import pandas as pd
 
 """ 
     Transoformar a lista de DataFrame em um unico dataframe_summary_
 """
+
 
 def transform_data(df: List[pd.DataFrame]) -> pd.DataFrame:
     """
